@@ -30,6 +30,7 @@ def find_valid_calls(planeteer_calls)
       if ele == valid_calls[index]
         return ele
       end
+      index += 1
     end
   end
   return nil
